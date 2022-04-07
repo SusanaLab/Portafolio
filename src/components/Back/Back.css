@@ -1,33 +1,42 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  html {
-    font-size: 62.5%;
-  }
+
   .back{
-  
+    display: flex;
+   flex-direction: column;
+    background: #FFF5E0;
   }
-  .imgSocialNetwork {
- 
-   
-  }
-  .div-derecha{
-  
-  }
-  .div-izquierda{
-
-
-  }
-  .single{
-
-  }
-  .icon{
- 
+  .two {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: nowrap;
+background: #FFF5E0;
    
   }
   .text{
-   
+    background: #FFF5E0;
+  }
 
+  .PAR{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    
+    color: #190933;
+  }
+
+  p{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    
+    color: #190933;
+  }
+  .carrera{
+width: 60px;
   }

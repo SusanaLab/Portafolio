@@ -16,8 +16,8 @@ text-align: center;
 color: #5B5E5E;
 }
 
-img {
-  max-width: 30%;
+.iconos {
+  max-width: 40%;
   object-fit: cover;
   margin: 5%;
 }

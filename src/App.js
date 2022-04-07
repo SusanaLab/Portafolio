@@ -12,9 +12,9 @@ export default function App() {
     <div className="App" >
      <Header/>
      <Banner/> 
-     <Projects/> 
-     <Background/>
-     {/* <About/>
+    
+     {/* <Projects/> 
+     <Background/> <About/>
     
     
      <Contacto/>
