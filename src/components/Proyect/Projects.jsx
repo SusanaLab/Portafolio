@@ -9,10 +9,13 @@ import './Proyect.css'
 
 function Projects () {
   return (
+    <div className='all' >
+    <p className='proyecto'>Proyects </p>
+    <p className='see'>Let's see my projects!!</p>
       <section className='container'>
         <div class="card_Blue">
     <div class="card__header">
-      <img className='iconos' src={card} alt="card__image" class="card__image" width="600"/>
+      <img className='conos' src={card} alt="card__image" />
     </div>
     <div class="card__body">
       <h4>Rick and Morty </h4>
@@ -21,7 +24,7 @@ function Projects () {
   </div>
   <div class="card_Pink">
     <div class="card__header">
-      <img className='iconos' src={poke} alt="card__image" class="card__image" width="600"/>
+      <img className='conos' src={poke} alt="card__image" />
     </div>
     <div class="card__body">
       <h4>Pokedex</h4>
@@ -31,7 +34,7 @@ function Projects () {
     
   <div class="card_Blue">
     <div class="card__header">
-      <img  className='iconos' src={memo} alt="card__image" class="card__image" width="600"/>
+      <img  className='conos' src={memo} alt="card__image" />
     </div>
     <div class="card__body">
       <h4>Memmory Match</h4>
@@ -41,7 +44,7 @@ function Projects () {
 
 <div class="card_Pink">
     <div class="card__header">
-      <img  className='iconos' src={red} alt="card__image" class="card__image" width="600"/>
+      <img  className='conos' src={red} alt="card__image" />
     </div>
     <div class="card__body">
       <h4>Social Network</h4>
@@ -50,7 +53,7 @@ function Projects () {
   </div>
   <div class="card_Blue">
     <div class="card__header">
-      <img className='iconos' src={note} alt="card__image" class="card__image" width="600"/>
+      <img className='conos' src={note} alt="card__image" />
     </div>
     <div class="card__body">
       <h4>GreeNotes</h4>
@@ -60,7 +63,7 @@ function Projects () {
   </div>
   <div class="card_Pink">
     <div class="card__header">
-      <img className='iconos' src={list} alt="card__image" class="card__image" width="600"/>
+      <img className='conos' src={list} alt="card__image" />
     </div>
     <div class="card__body">
       <h4>Learning list </h4>
@@ -69,7 +72,7 @@ function Projects () {
     
   </div>
 
-      </section>
+      </section></div>
   )
 }
 export default Projects

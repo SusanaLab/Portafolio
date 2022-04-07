@@ -12,12 +12,14 @@ export default function App() {
     <div className="App" >
      <Header/>
      <Banner/> 
+    <Projects/> 
+    <Background/>
+    <Contacto/>
+     {/* 
+    <About/>
     
-     {/* <Projects/> 
-     <Background/> <About/>
     
-    
-     <Contacto/>
+     
      <Header/> */}
     </div>
   );

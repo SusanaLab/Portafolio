@@ -6,7 +6,7 @@ function Background () {
   return (
 <div className='back'>
 <div className='two'>
-       <img className='top' src={ipn} alt="facebook" class="imgSocialNetwork" /> 
+       <img className="SocialNetwork" src={ipn} alt="facebook"  /> 
        <div className='text'>
           <h4 className='PAR'>Frontend 2021</h4>
           <ul>
@@ -17,7 +17,7 @@ function Background () {
       </div>
 </div> 
 <div className='two'> 
-       <img className='carrera' src={labo} alt="facebook" class="imgSocialNetwork" />  
+       <img className="SocialNetwork" src={labo} alt="facebook"  />  
         <div className='text'>  
               <h4 className='PAR'>Licenciatura en Relaciones Comerciales , 2013-2017</h4>
               <p> Formacion profesional donde adquiri conocimientos de areas como publicidad, mercadotecnia, ventas, administracion entre otras, para lograr desarrollar productos y servicios exitosos.</p>
