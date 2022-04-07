@@ -1,0 +1,20 @@
+    .div_nav{
+        display: flex;
+flex-wrap: nowrap;
+margin: 1%;
+padding: auto;
+justify-content: space-between;
+background: #FFF5E0;
+
+    }
+    li{
+position: relative;
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    line-height: 7px;
+    
+    color: #190933;
+    
+}

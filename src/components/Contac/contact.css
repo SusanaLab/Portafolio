@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+
+.imgSocialNetwork {
+  width: 22px;
+  margin-right: 20px;
+  text-align: left;
+  position:relative;
+}
+.icono{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+ 
+}
+.con{
+  justify-content: center;
+   margin: 0ex;
+   padding: 4rem;
+   font-family: 'Varela';
+  font-size: 38px;
+  line-height: 30px;
+  color: rgb(58, 57, 57);
+  background: #DFE9ED;
+
+}
+
+.add{
+  justify-content: center;
+}

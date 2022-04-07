@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  #about{
+    background: #EDCECB;
+  
+      text-align: center;
+      font-size: 20px;
+      width:100%
+     
+  }
+p{
+ margin: 30px;
+ padding: 20px;  
+}
+h3{
+  margin: 30px;
+ padding: 20px;   
+}
+.CV{
+  background-color: rgb(95, 83, 202);
+  color: #EDCECB;
+  border: 0px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.btnCV{
+  color: #EDCECB;
+}
