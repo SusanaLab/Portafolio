@@ -3,8 +3,7 @@ import './header.css'
 function Header ()  {
   return (
     <nav className='div_nav'>
-
-  <li href="#home"> 
+  <li className='listas' href="#home"> 
   <span>About</span>
   </li>
   <li href="#news">
