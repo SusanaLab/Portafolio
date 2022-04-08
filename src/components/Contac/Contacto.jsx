@@ -10,15 +10,21 @@ function Contacto () {
   
   }; 
   return (
-<div class="con">
-  <h3 className='add'>Contactame</h3>
-  <div class="icono">
-  <img src={github} alt="facebook" class="imgSocialNetwork" />  
-  <img src={linkedin} alt="facebook" class="imgSocialNetwork" /> 
-  <img onChange={handleClick} src={gmail} alt="facebook" class="imgSocialNetwork" /> 
- 
-  </div>
-</div>
+  <div className='contacto'>
+<div className="con">
+  <h3 className='add'>Contact</h3>
+     <form className='formRegistro'>
+     <h2 className ="text-login">Name </h2>
+     <input  className ="input"   type="text" placeholder="Enter your name"/>
+     <h2 className ="text-login" >Linkedin</h2>
+     <input className ="input"  type="text" name="password" placeholder="Enter your user name"/>
+     <h2 className ="text-login" >Email</h2>
+     <input className ="input"  type="text" name="password" placeholder="Enter your e-mail adreess"/>
+     <h2 className ="text-login" >Message</h2>
+     <input className ="input"  type="text" name="password" placeholder="Typing your message here.."/>
+     </form>  
+      <button className="btn"  >Send</button>
+</div></div>
   )
 }
 export default Contacto

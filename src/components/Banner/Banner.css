@@ -55,7 +55,21 @@
     font-size: 24px;
     line-height: 36px;
     color: #FFFFFF;
+    background-color: #281F5E;
   }
   .banner{
     width: 105%;
+  }
+  .try{
+    width: 273px;
+    height: 49px;
+    background: #323239;
+    border-radius: 10px;
+    Font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #190933;
   }
