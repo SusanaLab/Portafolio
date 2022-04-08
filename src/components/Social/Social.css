@@ -1,3 +1,6 @@
-#about{
+#social{
     background: #20253A;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

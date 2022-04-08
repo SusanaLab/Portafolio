@@ -12,7 +12,9 @@ function Contacto () {
   return (
   <div className='contacto'>
 <div className="con">
+  <div className='Contact'>
   <h3 className='add'>Contact</h3>
+  </div>
      <form className='formRegistro'>
      <h2 className ="text-login">Name </h2>
      <input  className ="input"   type="text" placeholder="Enter your name"/>

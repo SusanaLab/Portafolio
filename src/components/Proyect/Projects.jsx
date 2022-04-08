@@ -10,6 +10,7 @@ import './Proyect.css'
 function Projects () {
   return (
     <div className='all' >
+       <a name="proyects"></a>
     <p className='proyecto'>Proyects </p>
     <p className='see'>Let's see my projects!!</p>
       <section className='container'>

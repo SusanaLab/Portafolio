@@ -12,13 +12,14 @@ export default function App() {
   return (
     <div className="App" >
      <Header/>
-     <Banner/> 
+     <Banner/>  
+     <About/>
     <Projects/> 
     <Background/>
     <Contacto/>
     <Social/>
      {/* 
-    <About/>
+   
     
     
      

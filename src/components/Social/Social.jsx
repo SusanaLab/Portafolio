@@ -8,7 +8,7 @@ import twitter  from './twitter.png'
 
 function Social () {
   return (
-    <div id='about'>
+    <div id='social'>
  
   <img className="SocialNetwork" src={linkedin} alt="linkedin"  />  
   <img className="SocialNetwork" src={github} alt="github"  />   

@@ -5,6 +5,7 @@ import './Back.css'
 function Background () {
   return (
 <div className='back'>
+<a name="back"></a>
 <div className='two'>
        <img className="SocialNetwork" src={ipn} alt="facebook"  /> 
        <div className='text'>

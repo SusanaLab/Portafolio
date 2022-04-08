@@ -3,22 +3,23 @@ import './header.css'
 function Header ()  {
   return (
     <nav className='div_nav'>
-  <li className='listas' href="#home"> 
+     
+  <li className='listas' href="#About"> 
   <span>About</span>
   </li>
-  <li href="#news">
+  <li href="#proyects">
     <span>Work</span>
 </li>
-  <li href="#contact">
+  <li href="#back">
     <span>Background</span>
 </li>
-  <li href="#about">
+  <li href="#contact">
     <span>Contact</span>
 </li>
-  <li href="#about"> 
+  <li href="#blog"> 
   <span> Blog </span>
   </li>
-  
+    <a name="About"></a>
 </nav>
 
   )
