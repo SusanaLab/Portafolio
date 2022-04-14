@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.6dbf6f16.css",
+    "main.js": "/Portafolio/static/js/main.6b51e1f0.js",
+    "static/media/pokedex.png": "/Portafolio/static/media/pokedex.91d0c333a0ee4e865a78.png",
+    "static/media/memmory.png": "/Portafolio/static/media/memmory.1157d7a66ee1db336e95.png",
+    "static/media/me.png": "/Portafolio/static/media/me.af63982c8119b24b8a8a.png",
+    "static/media/su.pdf": "/Portafolio/static/media/su.cc7d29c986213e32f757.pdf",
+    "static/media/contexto.png": "/Portafolio/static/media/contexto.5eaea7ac29898028aaba.png",
+    "static/media/componenteClase.png": "/Portafolio/static/media/componenteClase.9deece1efe13b6e0cd4e.png",
+    "static/media/morty.png": "/Portafolio/static/media/morty.d4bcd7af48b99a37332b.png",
+    "static/media/estado.png": "/Portafolio/static/media/estado.8bf319433d3e4ebba5b0.png",
+    "static/media/JSX.png": "/Portafolio/static/media/JSX.fd32f0ef423545101cbf.png",
+    "static/media/hook personalizado.png": "/Portafolio/static/media/hook personalizado.5bdf6fd49ae25c8f702c.png",
+    "static/media/condicional.png": "/Portafolio/static/media/condicional.84bee0c8bd0c55caf6ee.png",
+    "static/media/useRef.png": "/Portafolio/static/media/useRef.a0bf00aa0d3b43fa9f5b.png",
+    "static/media/usestate.png": "/Portafolio/static/media/usestate.f1d80b99ed7557bd5728.png",
+    "static/media/useMemo.png": "/Portafolio/static/media/useMemo.9e0aec8e1eece7e0d2bf.png",
+    "static/media/use effect.png": "/Portafolio/static/media/use effect.c589d1c8287aeab55b02.png",
+    "static/media/useContext.png": "/Portafolio/static/media/useContext.5ab94aa5da31a6f4ed43.png",
+    "static/media/listas.png": "/Portafolio/static/media/listas.0b0a78bd2b2c60a767f2.png",
+    "static/media/red.png": "/Portafolio/static/media/red.91997373a88ff216d7c7.png",
+    "static/media/useCallback.png": "/Portafolio/static/media/useCallback.96c85b75f4fbb2e39cf7.png",
+    "static/media/green.png": "/Portafolio/static/media/green.eb2bd1e3100fd96817ca.png",
+    "static/media/react.png": "/Portafolio/static/media/react.97376b724e2630ec0bff.png",
+    "static/media/lista.png": "/Portafolio/static/media/lista.e67f2877e179ade88da1.png",
+    "static/media/web.png": "/Portafolio/static/media/web.8d63d00c0d072f656c76.png",
+    "static/media/sass.png": "/Portafolio/static/media/sass.3b8554999488ed024972.png",
+    "static/media/gitt.png": "/Portafolio/static/media/gitt.ac4f2ad487a885667f02.png",
+    "static/media/figma.png": "/Portafolio/static/media/figma.109f2b2ed7a2a54ef40b.png",
+    "static/media/git.png": "/Portafolio/static/media/git.b9f01fdc092a9b0cc845.png",
+    "index.html": "/Portafolio/index.html",
+    "main.6dbf6f16.css.map": "/Portafolio/static/css/main.6dbf6f16.css.map",
+    "main.6b51e1f0.js.map": "/Portafolio/static/js/main.6b51e1f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dbf6f16.css",
+    "static/js/main.6b51e1f0.js"
+  ]
+}
