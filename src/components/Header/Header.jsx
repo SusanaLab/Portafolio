@@ -8,8 +8,8 @@ function Header ()  {
   return (
     <nav >
       <ul className='div_nav'>
-        <li ><a href="/#about"><span> About </span></a></li>
-        <li ><a href="/#proyect">Work</a></li>
+        <li className='out'><a className='out' href="/#about"><span className='out'> About </span></a></li>
+        <li className='out'><a className='out' href="/#proyect">Work</a></li>
         <li ><a href="/#back">Background</a></li>
         <li ><a href="/#contac">Contact</a></li>
         <li ><Link to="/blog">Blog</Link></li>
