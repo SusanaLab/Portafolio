@@ -1,0 +1,83 @@
+.blog{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 96px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #20253A;
+}
+.tema{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.titulo{
+    background: #20253A;
+    font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 96px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.reactT{
+    background: #20253A;
+    font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 96px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.tema{
+    background: #20253A;
+    display: flex;
+align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.subtitulo{
+    background: #20253A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explica{
+    margin:20px;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+background: #20253A;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: justify;
+}
+.ilustracion{
+    margin:20px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

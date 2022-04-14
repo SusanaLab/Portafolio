@@ -2,7 +2,7 @@
 
 
 
-.container {
+.container_2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -93,6 +93,12 @@ color: #190933;
   color: #190933;
   
 }
-.all{
+.alto{
   background: #FFF5E0;
+}
+.more{
+  color: antiquewhite;
+}
+.flecha{
+  width: 20px;
 }

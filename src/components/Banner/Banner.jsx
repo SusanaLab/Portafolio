@@ -11,7 +11,7 @@ function Banner () {
      <div className="texto">
        <p className="frontend">Hello World!</p>
        <p className="nombre"> I'm Susana Garcia, a Frontend web developer </p>
-           <a  href={CV} download="Susana_Garcia_Frontend" target="_blank" rel="noreferrer" ><button type="button" className="Cu"> Dowload Cv </button></a>
+           <a  href={CV} download="Susana_Garcia_Frontend" target="_blank" rel="noreferrer" ><button type="button" className="Cu"> Download CV </button></a>
      </div>
    </div>
   )

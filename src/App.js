@@ -1,29 +1,32 @@
-import { Link } from "react-router-dom";
-import Banner from "./components/Banner/Banner";
-import About from "./components/About/About";
-import Projects from './components/Proyect/Projects'
-import Background from './components/Back/Background'
-import Contacto from './components/Contac/Contacto'
-import Header from "./components/Header/Header";
+import Componentes from "./components/Componentes/Componentes";
+import { Routes, Route} from "react-router-dom";
+import { Blog } from "./components/Blog/Blog";
+import Notfound from "./NotFound/Notfound";
+import { Rick } from "./components/apps/Rick/Rick";
+import { Pokedex } from "./components/apps/Pokedex/Pokedex";
+import { Memmory } from "./components/apps/Memmory/Memmory";
+import { Network } from "./components/apps/Network/Network";
+import { Green } from "./components/apps/Green/Green";
+import { List } from "./components/apps/List/List";
 import './App.css'
-import Social from "./components/Social/Social";
+
+
 
 export default function App() {
+
   return (
-    <div className="App" >
-     <Header/>
-     <Banner/>  
-     <About/>
-    <Projects/> 
-    <Background/>
-    <Contacto/>
-    <Social/>
-     {/* 
-   
-    
-    
-     
-     <Header/> */}
-    </div>
+    <div className="App">
+    <Routes>
+      <Route path="/" element={<Componentes />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/rick-and-morty" element={<Rick />} />
+      <Route path="/pokedex" element={<Pokedex />} />
+      <Route path="/memmory-match" element={<Memmory />} />
+      <Route path="/social-network" element={<Network />} />
+      <Route path="/green-notes" element={<Green />} />
+      <Route path="/learning-list" element={<List />} />
+      <Route path="*" element={<Notfound />} />
+    </Routes>
+  </div>
   );
 }

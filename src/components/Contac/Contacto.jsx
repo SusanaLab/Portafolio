@@ -1,31 +1,26 @@
 import React from 'react'
 import './contact.css'
-import github from '../Contac/Assets/github.png'
-import linkedin from '../Contac/Assets/linkedin.png'
-import gmail from '../Contac/Assets/correo.png'
-function Contacto () {
-  const handleClick = e =>  {
-    e.preventDefault();
 
-  
-  }; 
+function Contacto () {
+
   return (
-  <div className='contacto'>
+  <div className='contacto' id='contac'>
 <div className="con">
   <div className='Contact'>
   <h3 className='add'>Contact</h3>
   </div>
-     <form className='formRegistro'>
+     <form className='formRegistro' action="https://formsubmit.co/susanlevart@gmail.com" method ="POST">
      <h2 className ="text-login">Name </h2>
-     <input  className ="input"   type="text" placeholder="Enter your name"/>
+     <input  className ="input"  name="name" type="text" placeholder="Enter your name"/>
      <h2 className ="text-login" >Linkedin</h2>
-     <input className ="input"  type="text" name="password" placeholder="Enter your user name"/>
+     <input className ="input" name="link" type="link"  placeholder="Enter your user name"/>
      <h2 className ="text-login" >Email</h2>
-     <input className ="input"  type="text" name="password" placeholder="Enter your e-mail adreess"/>
+     <input className ="input" name="email" type="email" placeholder="Enter your e-mail adreess"/>
      <h2 className ="text-login" >Message</h2>
-     <input className ="input"  type="text" name="password" placeholder="Typing your message here.."/>
+     <input className ="input"  type="text" name="text" placeholder="Typing your message here.."/>
+     <button  type="submit" className="btn"  >Send</button>
      </form>  
-      <button className="btn"  >Send</button>
+      
 </div></div>
   )
 }

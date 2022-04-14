@@ -7,6 +7,9 @@
       width:100%
      
   }
+  .fondo{
+    background: #FFF5E0;
+  }
 .parr{
  margin: 30px;
  padding: 20px;  
@@ -21,10 +24,12 @@ align-items: flex-end;
 text-align: center;
 }
 .sobre{
+  background: #FFF5E0;
   margin: 30px;
  padding: 20px;   
- font-family: 'Kadwa';
-font-style: normal;
+ font-family: 'Hind Vadodara', sans-serif;
+ font-family: 'Quicksand', sans-serif;
+ font-family: 'Signika', sans-serif;
 font-weight: 500;
 font-size: 30px;
 line-height: 72px;
@@ -33,8 +38,11 @@ align-items: flex-end;
 }
 
 #about1{
-  background: #20253A;   
+  background: #20253A;  
+
 }
 #about2{
-  background: FFF5E0;   
+  background: FFF5E0; 
+      display: flex;
+  justify-content: center; 
 }

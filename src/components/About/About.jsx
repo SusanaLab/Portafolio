@@ -12,7 +12,7 @@ import github from './github.png'
 
 function About () {
   return (
-    <div id='aboutt'>
+    <div id="about" className='fondo'>
     <h3 className='parr'>About me</h3>
     <p className='sobre'>I am a Frontend developer focused on creating unique experiences between users and the web, through the planning, design and programming of software solutions, using technologies such as Javascript and React that add value to the client.</p>
     <div id='about2'>

@@ -4,21 +4,13 @@
   justify-content: center;
   background: #20253A;
   border-radius: 10px;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   }
   
-  .add{
-    font-family: 'Kadwa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 72px;
-    align-items: flex-end;
-    color: #FFFFFF;
-  }
+
   .formRegistro{
     display: flex;
     flex-direction: column;
@@ -30,7 +22,7 @@
     font-family: 'Hind Vadodara';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 54px;
   display: flex;
   align-items: flex-end;
@@ -45,7 +37,7 @@
   font-family: 'Hind Vadodara';
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 36px;
   letter-spacing: 0.07em;
   background: #20253A;
@@ -66,7 +58,7 @@
   font-family: 'Hind Vadodara';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 48px;
   letter-spacing: 0.07em;
   
@@ -76,4 +68,17 @@
   }
   .contacto{
     background: #FFF5E0;
+  }
+  .Contact{
+    display: flex;
+    justify-content: center;
+    font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+  letter-spacing: 0.07em;
+  }  
+  .add{
+    color: #FFFFFF;
   }
