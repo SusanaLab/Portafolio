@@ -25,7 +25,6 @@ export default function App() {
       <Route path="/social-network" element={<Network />} />
       <Route path="/green-notes" element={<Green />} />
       <Route path="/learning-list" element={<List />} />
-      <Route path="*" element={<Notfound />} />
     </Routes>
   </div>
   );
