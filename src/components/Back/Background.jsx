@@ -6,8 +6,9 @@ function Background () {
   return (
 <div className='back' id='back'>
 
-       <img className="SocialNetwork" src={ipn} alt="facebook"  /> 
-<div className='two'>{}
+     
+<div className='two'>  
+<img className="SocialNetwork" src={ipn} alt="facebook"  /> 
        <div className='text'>
           <h4 className='PAR'>Frontend 2021,  <a href='https://www.laboratoria.la/' >Laboratoria</a> Mex011 </h4>
           <ul>

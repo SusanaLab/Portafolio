@@ -1,7 +1,6 @@
 import Componentes from "./components/Componentes/Componentes";
 import { Routes, Route} from "react-router-dom";
 import { Blog } from "./components/Blog/Blog";
-import Notfound from "./NotFound/Notfound";
 import { Rick } from "./components/apps/Rick/Rick";
 import { Pokedex } from "./components/apps/Pokedex/Pokedex";
 import { Memmory } from "./components/apps/Memmory/Memmory";

@@ -24,6 +24,7 @@ align-items: flex-end;
 text-align: center;
 }
 .sobre{
+  text-align: justify;
   background: #FFF5E0;
   margin: 30px;
  padding: 20px;   
